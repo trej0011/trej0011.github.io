@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+
+}
+
+header,footer{
+    background-color: blue;(15,220,15)
+}
+.site-title{
+    color: blueviolet;(201,5,5)
+}
+#picture{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style: square;
+}
+ul:not(.navigation) li:nth-child(odd){
+
+background-color: bisque;
+}
+   .navigation{
+    list-style: none;
+   }
+   .navigation a{
+    background-color: brown;
+    text-decoration: none;
+    border: green 1px solid;
+   }
+   .navigation a:hover{
+     background-color: cadetblue;
+     border: black 1px solid;
+     color: black;
+
+   }
