@@ -1,0 +1,44 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+html{
+    font-size: 20px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: antiquewhite;
+}
+.container{
+    width: 90vw;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 5rem;
+background-image: url("../images/bread.jpg");
+background-repeat: no-repeat;
+/* x-position y-position */
+/* left center right */
+background-position: center center;
+background-size: cover;
+}
+/* .overlay{
+    background-color: #333;
+} */
+h1{
+    text-transform: uppercase;
+}
+ul{
+    font-size: 10px;
+}
+li{
+    /* px, rem, em */
+    font-size: 2rem ;
+}
+p{
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 700;
+    width: 50%;
+}

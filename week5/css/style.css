@@ -1,0 +1,38 @@
+header{
+ background-color: blue;
+ padding: 1rem;
+ margin: 2rem;
+}
+h1{ 
+    color: red
+}
+/* this is a demo comment */
+h1, h2, h3 {
+    border: 1px solid green;
+    text-decoration:underline;
+}
+p{
+font-weight: 600;
+}
+div p{
+    font-weight: 200;
+}
+.highlight{
+    background-color: rgb(188, 215, 105);
+}
+.goals{
+    color: rgb(68, 5, 30);
+}
+
+#explain{
+border: 2px solid gray;
+border-radius: 1rem;
+padding: o.5rem 1rem;
+}
+
+li:nth-child(odd){
+    background-color: deepskyblue;
+}
+li:nth-child(even){
+    background-color: blueviolet;
+}
